@@ -1,0 +1,49 @@
+.flex-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: end; */
+  display: grid;
+  grid-template-columns: repeat(8, 100px);
+  row-gap: 30px;
+  column-gap: 100px;
+  grid-template-rows: repeat(3, 200px);
+
+  height: 98vh;
+  background-color: blanchedalmond;
+}
+
+/* justify-content ---> main axis */
+/* align-items ---> cross axis */
+
+/* row --> main axis- :horizontal, cross axis-: vertical
+column --> main axis- :vertical, cross axis-:horizontal */
+
+/* 1D --> alignment --"> Flex box */
+/* 2D --> alignment --> Grid*/
+.flex-item1 {
+  height: 100px;
+  width: 120px;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.flex-item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  margin: 10px;
+}
+
+.flex-item3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  margin: 10px;
+}
