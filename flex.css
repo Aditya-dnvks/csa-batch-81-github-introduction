@@ -1,49 +1,46 @@
-.flex-container {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: end; */
-  display: grid;
-  grid-template-columns: repeat(8, 100px);
-  row-gap: 30px;
-  column-gap: 100px;
-  grid-template-rows: repeat(3, 200px);
-
-  height: 98vh;
-  background-color: blanchedalmond;
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-/* justify-content ---> main axis */
-/* align-items ---> cross axis */
-
-/* row --> main axis- :horizontal, cross axis-: vertical
-column --> main axis- :vertical, cross axis-:horizontal */
-
-/* 1D --> alignment --"> Flex box */
-/* 2D --> alignment --> Grid*/
-.flex-item1 {
-  height: 100px;
-  width: 120px;
-  background-color: aqua;
-  margin: 10px;
-}
-
-.flex-item2 {
+ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100px;
-  background-color: aqua;
-  margin: 10px;
+  gap: 50px;
+  list-style: none;
 }
 
-.flex-item3 {
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-custom {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  width: 100px;
+  justify-content: space-between;
+  padding: 5px 50px;
   background-color: aqua;
-  margin: 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.x {
+  margin-left: 70vw;
+}
+.content {
+  font-size: 16px;
+}
+
+.card-style {
+  border-radius: 16px;
+  border: 1px black solid;
+  margin: 12px;
+}
+.card-style > img {
+  border-radius: 16px;
 }
